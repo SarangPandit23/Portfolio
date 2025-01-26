@@ -1,8 +1,14 @@
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+## Contact
+
+![Profile_image ](https://github.com/user-attachments/assets/77890495-6d70-4199-9cfe-c5b9d20a768e)
+
+![image](https://github.com/user-attachments/assets/7fad2640-175a-449f-958c-6546ac2a38cd)  https://www.linkedin.com/in/sarang-pandit
+
 
 ## Education
 Worcester Polytechnic Institute	
 - Master of Science, Information Technology | GPA: 4/4 | August 2024 - May 2026
+
 University of Mumbai	
 - Bachelor of Engineering, Electronics and Telecommunication Engineering GPA: 3.4/4	| August 2019 - June 2022
 
