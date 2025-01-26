@@ -1,9 +1,10 @@
 #### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
 ## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+Worcester Polytechnic Institute	
+- Master of Science, Information Technology | GPA: 4/4 | August 2024 - May 2026
+University of Mumbai	
+- Bachelor of Engineering, Electronics and Telecommunication Engineering GPA: 3.4/4	| August 2019 - June 2022
 
 ## Work Experience
 **Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
