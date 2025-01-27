@@ -68,7 +68,7 @@
             margin: 2em auto;
             text-align: left;
             width: 80%;
-            max-width: 800px;
+            max-width: 1200px;
         }
         .projects h2 {
             font-size: 2rem;
@@ -76,12 +76,19 @@
             color: #FFD700;
             text-align: center;
         }
+        .project-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
         .project-box {
             background: #333;
             padding: 20px;
-            margin: 20px 0;
+            width: calc(33% - 20px);
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            text-align: left;
         }
         .project-box h3 {
             font-size: 1.5rem;
@@ -126,22 +133,24 @@
 
     <div class="projects">
         <h2>Projects</h2>
-        <div class="project-box">
-            <h3>Goodwill Analytics Dashboard</h3>
-            <p>Designed a real-time analytics dashboard to unify donation data and sustainability metrics. Enhanced decision-making for regional donation strategies, leading to a 25% improvement in operational efficiency. Features included Sankey and forecast visualizations for actionable insights.</p>
-            <a href="https://github.com/SarangPandit23/Donation-Insights-and-Sustainability-Dashboard-Tactical-Dashboard-" target="_blank">Goodwill Analytics Dashboard GitHub</a>
-        </div>
+        <div class="project-container">
+            <div class="project-box">
+                <h3>Goodwill Analytics Dashboard</h3>
+                <p>Designed a real-time analytics dashboard to unify donation data and sustainability metrics. Enhanced decision-making for regional donation strategies, leading to a 25% improvement in operational efficiency. Features included Sankey and forecast visualizations for actionable insights.</p>
+                <a href="https://github.com/SarangPandit23/Donation-Insights-and-Sustainability-Dashboard-Tactical-Dashboard-" target="_blank">GitHub</a>
+            </div>
 
-        <div class="project-box">
-            <h3>Instagram Interaction Insights</h3>
-            <p>Analyzed Instagram user interaction data to optimize engagement strategies. Delivered actionable insights on influencer types, posting schedules, and content performance. Improved overall engagement by understanding key audience behavior patterns.</p>
-            <a href="https://github.com/SarangPandit/Instagram-Interaction-Insights" target="_blank">Instagram Interaction Insights GitHub</a>
-        </div>
+            <div class="project-box">
+                <h3>Instagram Interaction Insights</h3>
+                <p>Analyzed Instagram user interaction data to optimize engagement strategies. Delivered actionable insights on influencer types, posting schedules, and content performance. Improved overall engagement by understanding key audience behavior patterns.</p>
+                <a href="https://github.com/SarangPandit/Instagram-Interaction-Insights" target="_blank">GitHub</a>
+            </div>
 
-        <div class="project-box">
-            <h3>Car Price Prediction System</h3>
-            <p>Built a machine learning model to predict car prices based on key features. Improved forecast accuracy by 20% and automated data collection, saving 150+ hours of manual effort. Deployed the solution for real-time price evaluation in the used car market.</p>
-            <a href="https://github.com/SarangPandit/Car-Price-Prediction" target="_blank">Car Price Prediction GitHub</a>
+            <div class="project-box">
+                <h3>Car Price Prediction System</h3>
+                <p>Built a machine learning model to predict car prices based on key features. Improved forecast accuracy by 20% and automated data collection, saving 150+ hours of manual effort. Deployed the solution for real-time price evaluation in the used car market.</p>
+                <a href="https://github.com/SarangPandit/Car-Price-Prediction" target="_blank">GitHub</a>
+            </div>
         </div>
     </div>
 </body>
