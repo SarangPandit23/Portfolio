@@ -48,7 +48,7 @@
         }
         .experience {
             margin-top: 2em;
-            text-align: left;
+            text-align: center;
             width: 80%;
             max-width: 800px;
         }
@@ -56,7 +56,6 @@
             font-size: 2rem;
             margin-bottom: 1em;
             color: #FFD700;
-            text-align: center;
         }
         .experience p {
             font-size: 1rem;
@@ -79,16 +78,7 @@
 
     <div class="experience">
         <h2>Experience</h2>
-        <p><strong>Data Analyst, Tata Consultancy Services (July 2022 - June 2024)</strong></p>
-        <p>• Developed and optimized a robust ETL pipeline to streamline data ingestion and transformation, processing over 100,000 records with near-zero errors.</p>
-        <p>• Designed and implemented 14+ interactive Tableau and Power BI dashboards, enabling leadership to track KPIs and make data-driven decisions.</p>
-        <p>• Improved data consistency and reporting accuracy by 20% through SQL-based systems, reducing query execution time by 40%.</p>
-        <p>• Automated ad hoc reporting workflows, reducing manual effort by 30% and enhancing data quality across teams.</p>
-
-        <p><strong>Data Analyst Intern, CISB Bureaus Facility Services (July 2021 - September 2021)</strong></p>
-        <p>• Performed exploratory data analysis (EDA) on large datasets to uncover patterns, contributing to a 12% increase in operational efficiency.</p>
-        <p>• Optimized SQL queries, reducing execution times by 20%, enabling timely, data-driven decision-making.</p>
-        <p>• Ensured data accuracy by cleaning and organizing raw datasets for detailed analysis and reporting.</p>
+        <p>I have over 2 years of experience as a Data Analyst, specializing in building robust ETL pipelines, creating dynamic dashboards, and optimizing SQL-based reporting systems. My work has led to improved operational efficiency and data-driven decision-making for key stakeholders.</p>
     </div>
 </body>
 </html>
