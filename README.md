@@ -44,25 +44,33 @@
         .contact a:hover {
             text-decoration: underline;
         }
-        .experience {
+        .experience, .projects {
             margin: 2em auto;
             text-align: left;
             width: 80%;
             max-width: 800px;
         }
-        .experience h2 {
+        .experience h2, .projects h2 {
             font-size: 2rem;
             margin-bottom: 1em;
             color: #FFD700;
             text-align: center;
         }
-        .experience p {
+        .experience p, .projects p {
             font-size: 1rem;
             margin: 1em 0;
             line-height: 1.8;
         }
-        .experience strong {
+        .experience strong, .projects strong {
             font-weight: bold;
+        }
+        .projects a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .projects a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -85,6 +93,21 @@
 
         <p><strong>CISB Experience</strong></p>
         <p>During my internship at <strong>CISB Bureaus Facility Services</strong>, I developed and optimized SQL queries to aggregate and analyze sales data, reducing execution times by 20% for timely decision-making. I conducted exploratory data analysis on large datasets, uncovering patterns that led to a 12% increase in operational efficiency. My role also involved cleaning and organizing raw datasets to ensure accuracy and readiness for advanced analysis.</p>
+    </div>
+
+    <div class="projects">
+        <h2>Projects</h2>
+        <p><strong>Goodwill Analytics Dashboard</strong></p>
+        <p>Designed a real-time analytics dashboard to track donation flows and sustainability metrics, improving donation strategies by 25%.</p>
+        <p><a href="https://github.com/SarangPandit23/Donation-Insights-and-Sustainability-Dashboard-Tactical-Dashboard-" target="_blank">View Project on GitHub</a></p>
+
+        <p><strong>Instagram Interaction Insights</strong></p>
+        <p>Analyzed user interactions to deliver actionable insights, enhancing engagement through optimized social media strategies.</p>
+        <p><a href="https://github.com/SarangPandit/Instagram-Interaction-Insights" target="_blank">View Project on GitHub</a></p>
+
+        <p><strong>Car Price Prediction System</strong></p>
+        <p>Built a machine learning model to predict car prices, improving forecasting accuracy by 20% and automating data processing.</p>
+        <p><a href="https://github.com/SarangPandit/Car-Price-Prediction" target="_blank">View Project on GitHub</a></p>
     </div>
 </body>
 </html>
