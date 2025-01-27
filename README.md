@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,8 +10,8 @@
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to right, #232526, #414345);
-            color: white;
+            background-color: #f8f9fa; /* Off-white background */
+            color: #333; /* Dark text for readability */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -19,15 +20,17 @@
         h1 {
             font-size: 3rem;
             margin: 1em 0;
+            color: #2c3e50; /* Slightly darker text for titles */
         }
         p {
             font-size: 1.2rem;
             margin: 0.5em 0;
+            color: #444; /* Text color for readability */
         }
         .line {
             width: 50px;
             height: 3px;
-            background-color: #FFD700;
+            background-color: #ff9800; /* Highlight color for the line */
             margin: 1em auto;
         }
         .contact {
@@ -35,7 +38,7 @@
             font-size: 1rem;
         }
         .contact a {
-            color: #FFD700;
+            color: #e67e22; /* Link color matching the theme */
             text-decoration: none;
             font-weight: 600;
             margin: 0 10px;
@@ -52,13 +55,14 @@
         .experience h2 {
             font-size: 2rem;
             margin-bottom: 1em;
-            color: #FFD700;
+            color: #2c3e50;
             text-align: center;
         }
         .experience p {
             font-size: 1rem;
             margin: 1em 0;
             line-height: 1.8;
+            color: #555;
         }
         .experience strong {
             font-weight: bold;
@@ -72,7 +76,7 @@
         .projects h2 {
             font-size: 2rem;
             margin-bottom: 1em;
-            color: #FFD700;
+            color: #2c3e50;
             text-align: center;
         }
         .project-container {
@@ -82,25 +86,27 @@
             justify-content: space-between;
         }
         .project-box {
-            background: #333;
+            background: #ffffff; /* Box background */
             padding: 20px;
             width: calc(33% - 20px);
             border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             text-align: left;
+            border: 1px solid #ddd; /* Subtle border */
         }
         .project-box h3 {
             font-size: 1.5rem;
             margin-bottom: 10px;
-            color: #FFD700;
+            color: #e67e22;
         }
         .project-box p {
             font-size: 1rem;
             margin: 10px 0;
             line-height: 1.6;
+            color: #555;
         }
         .project-box a {
-            color: #FFD700;
+            color: #e67e22;
             text-decoration: none;
             font-weight: 600;
         }
