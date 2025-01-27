@@ -14,14 +14,12 @@
             color: white;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
             text-align: center;
-            min-height: 100vh;
         }
         h1 {
             font-size: 3rem;
-            margin: 0.5em 0;
+            margin: 1em 0 0.5em;
         }
         p {
             font-size: 1.2rem;
@@ -34,7 +32,7 @@
             margin: 1em auto;
         }
         .contact {
-            margin-top: 2em;
+            margin: 1em 0;
             font-size: 1rem;
         }
         .contact a {
@@ -47,8 +45,8 @@
             text-decoration: underline;
         }
         .experience {
-            margin-top: 2em;
-            text-align: center;
+            margin: 2em auto;
+            text-align: left;
             width: 80%;
             max-width: 800px;
         }
@@ -56,6 +54,7 @@
             font-size: 2rem;
             margin-bottom: 1em;
             color: #FFD700;
+            text-align: center;
         }
         .experience p {
             font-size: 1rem;
@@ -64,6 +63,11 @@
         }
         .experience strong {
             font-weight: bold;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #FFD700;
+            margin: 1em 0;
         }
     </style>
 </head>
@@ -81,9 +85,10 @@
 
     <div class="experience">
         <h2>Experience</h2>
+        <hr>
         <p><strong>TCS Experience</strong></p>
         <p>At <strong>Tata Consultancy Services</strong>, I worked as a Data Analyst, leading the development of a robust ETL pipeline to process over 100,000 records with near-zero errors, significantly enhancing decision-making accuracy. I designed and implemented 14+ interactive dashboards in Tableau and Power BI, delivering real-time insights that contributed to measurable revenue growth. By optimizing SQL-based reporting systems, I achieved a 40% reduction in query execution times and improved data consistency by 20%. I also automated reporting workflows, reducing manual efforts by 30%, and optimized AWS pipelines for faster data accessibility.</p>
-
+        <hr>
         <p><strong>CISB Experience</strong></p>
         <p>During my internship at <strong>CISB Bureaus Facility Services</strong>, I developed and optimized SQL queries to aggregate and analyze sales data, reducing execution times by 20% for timely decision-making. I conducted exploratory data analysis on large datasets, uncovering patterns that led to a 12% increase in operational efficiency. My role also involved cleaning and organizing raw datasets to ensure accuracy and readiness for advanced analysis.</p>
     </div>
