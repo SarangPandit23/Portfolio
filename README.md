@@ -4,40 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sarang Pandit's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
+            background-color: #f4f4f9;
             color: #333;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #1E1E2C;
             color: white;
             padding: 20px 10px;
             text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
         nav a {
             margin: 0 15px;
-            color: white;
+            color: #FFD700;
             text-decoration: none;
+            font-weight: 600;
+        }
+        nav a:hover {
+            color: #fff;
         }
         section {
-            padding: 40px 20px;
+            padding: 60px 20px;
         }
-        footer {
-            background-color: #333;
-            color: white;
+        section h2 {
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            color: #1E1E2C;
         }
-        .projects, .skills {
+        .intro {
+            text-align: center;
+            background: #FFD700;
+            color: #1E1E2C;
+            padding: 40px 20px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .skills, .projects {
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
             gap: 20px;
         }
         .card {
@@ -45,12 +57,30 @@
             border: 1px solid #ddd;
             border-radius: 8px;
             padding: 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            flex: 1;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             max-width: 300px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
         }
         .card h3 {
             margin-top: 0;
+            color: #1E1E2C;
+        }
+        footer {
+            background-color: #1E1E2C;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: #fff;
         }
     </style>
 </head>
@@ -67,8 +97,10 @@
     </header>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>I am a dedicated Data Analyst with expertise in Python, SQL, Tableau, and AWS. With a strong foundation in engineering and a master's degree in Information Technology from WPI, I am passionate about leveraging data to drive meaningful insights.</p>
+        <div class="intro">
+            <h2>About Me</h2>
+            <p>I am a passionate Data Analyst with experience in Python, SQL, Tableau, and AWS. With a solid foundation in engineering and a master's degree in Information Technology from WPI, I aim to leverage data to drive impactful insights and solutions. My expertise lies in data visualization, ETL pipelines, and machine learning applications.</p>
+        </div>
     </section>
 
     <section id="skills">
@@ -83,8 +115,8 @@
                 <p>Tableau, Power BI, Databricks, Excel, VBA</p>
             </div>
             <div class="card">
-                <h3>Methodologies</h3>
-                <p>SDLC, Agile, Data Visualization, Data Governance</p>
+                <h3>Cloud & Databases</h3>
+                <p>AWS, Azure, MySQL, SQLite, Spark SQL</p>
             </div>
         </div>
     </section>
@@ -94,28 +126,30 @@
         <div class="projects">
             <div class="card">
                 <h3>Goodwill Analytics Dashboard</h3>
-                <p>Designed a real-time analytics dashboard to track donation flow and sustainability metrics, improving strategies by 25%.</p>
+                <p>Created a real-time dashboard integrating multi-state donation data and sustainability metrics, improving donation strategies by 25%.</p>
             </div>
             <div class="card">
                 <h3>Instagram Insights</h3>
-                <p>Analyzed interactions to deliver actionable insights, enhancing engagement with optimized strategies.</p>
+                <p>Analyzed user interactions and engagement strategies to deliver actionable insights for better social media impact.</p>
             </div>
             <div class="card">
                 <h3>Car Price Prediction</h3>
-                <p>Created a machine learning model for car price prediction, improving forecast accuracy by 20%.</p>
+                <p>Developed a machine learning model for car price prediction, improving forecast accuracy by 20%.</p>
             </div>
         </div>
     </section>
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:spandit1@wpi.edu">spandit1@wpi.edu</a></p>
-        <p>GitHub: <a href="https://github.com/SarangPandit" target="_blank">github.com/SarangPandit</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/sarang-pandit" target="_blank">linkedin.com/in/sarang-pandit</a></p>
+        <div class="intro">
+            <p>Email: <a href="mailto:spandit1@wpi.edu">spandit1@wpi.edu</a></p>
+            <p>GitHub: <a href="https://github.com/SarangPandit" target="_blank">github.com/SarangPandit</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/sarang-pandit" target="_blank">linkedin.com/in/sarang-pandit</a></p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Sarang Pandit</p>
+        <p>&copy; 2025 Sarang Pandit | <a href="#">Back to top</a></p>
     </footer>
 </body>
 </html>
