@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -61,6 +62,9 @@
             margin: 0.5em 0;
             line-height: 1.6;
         }
+        .experience strong {
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -77,7 +81,11 @@
 
     <div class="experience">
         <h2>Experience</h2>
-        <p>I have over 2 years of experience as a Data Analyst, specializing in building robust ETL pipelines, creating dynamic dashboards, and optimizing SQL-based reporting systems. My work has led to improved operational efficiency and data-driven decision-making for key stakeholders.</p>
+        <p><strong>TCS Experience</strong></p>
+        <p>At <strong>Tata Consultancy Services</strong>, I worked as a Data Analyst, leading the development of a robust ETL pipeline to process over 100,000 records with near-zero errors, significantly enhancing decision-making accuracy. I designed and implemented 14+ interactive dashboards in Tableau and Power BI, delivering real-time insights that contributed to measurable revenue growth. By optimizing SQL-based reporting systems, I achieved a 40% reduction in query execution times and improved data consistency by 20%. I also automated reporting workflows, reducing manual efforts by 30%, and optimized AWS pipelines for faster data accessibility.</p>
+
+        <p><strong>CISB Experience</strong></p>
+        <p>During my internship at <strong>CISB Bureaus Facility Services</strong>, I developed and optimized SQL queries to aggregate and analyze sales data, reducing execution times by 20% for timely decision-making. I conducted exploratory data analysis on large datasets, uncovering patterns that led to a 12% increase in operational efficiency. My role also involved cleaning and organizing raw datasets to ensure accuracy and readiness for advanced analysis.</p>
     </div>
 </body>
 </html>
