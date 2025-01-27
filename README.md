@@ -44,32 +44,61 @@
         .contact a:hover {
             text-decoration: underline;
         }
-        .experience, .projects {
+        .experience {
             margin: 2em auto;
             text-align: left;
             width: 80%;
             max-width: 800px;
         }
-        .experience h2, .projects h2 {
+        .experience h2 {
             font-size: 2rem;
             margin-bottom: 1em;
             color: #FFD700;
             text-align: center;
         }
-        .experience p, .projects p {
+        .experience p {
             font-size: 1rem;
             margin: 1em 0;
             line-height: 1.8;
         }
-        .experience strong, .projects strong {
+        .experience strong {
             font-weight: bold;
         }
-        .projects a {
+        .projects {
+            margin: 2em auto;
+            text-align: left;
+            width: 80%;
+            max-width: 800px;
+        }
+        .projects h2 {
+            font-size: 2rem;
+            margin-bottom: 1em;
+            color: #FFD700;
+            text-align: center;
+        }
+        .project-box {
+            background: #333;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .project-box h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #FFD700;
+        }
+        .project-box p {
+            font-size: 1rem;
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .project-box a {
             color: #FFD700;
             text-decoration: none;
             font-weight: 600;
         }
-        .projects a:hover {
+        .project-box a:hover {
             text-decoration: underline;
         }
     </style>
@@ -97,17 +126,23 @@
 
     <div class="projects">
         <h2>Projects</h2>
-        <p><strong>Goodwill Analytics Dashboard</strong></p>
-        <p>Designed a real-time analytics dashboard to track donation flows and sustainability metrics, improving donation strategies by 25%.</p>
-        <p><a href="https://github.com/SarangPandit23/Donation-Insights-and-Sustainability-Dashboard-Tactical-Dashboard-" target="_blank">View Project on GitHub</a></p>
+        <div class="project-box">
+            <h3>Goodwill Analytics Dashboard</h3>
+            <p>Designed a real-time analytics dashboard to unify donation data and sustainability metrics. Enhanced decision-making for regional donation strategies, leading to a 25% improvement in operational efficiency. Features included Sankey and forecast visualizations for actionable insights.</p>
+            <a href="https://github.com/SarangPandit23/Donation-Insights-and-Sustainability-Dashboard-Tactical-Dashboard-" target="_blank">Goodwill Analytics Dashboard GitHub</a>
+        </div>
 
-        <p><strong>Instagram Interaction Insights</strong></p>
-        <p>Analyzed user interactions to deliver actionable insights, enhancing engagement through optimized social media strategies.</p>
-        <p><a href="https://github.com/SarangPandit/Instagram-Interaction-Insights" target="_blank">View Project on GitHub</a></p>
+        <div class="project-box">
+            <h3>Instagram Interaction Insights</h3>
+            <p>Analyzed Instagram user interaction data to optimize engagement strategies. Delivered actionable insights on influencer types, posting schedules, and content performance. Improved overall engagement by understanding key audience behavior patterns.</p>
+            <a href="https://github.com/SarangPandit/Instagram-Interaction-Insights" target="_blank">Instagram Interaction Insights GitHub</a>
+        </div>
 
-        <p><strong>Car Price Prediction System</strong></p>
-        <p>Built a machine learning model to predict car prices, improving forecasting accuracy by 20% and automating data processing.</p>
-        <p><a href="https://github.com/SarangPandit/Car-Price-Prediction" target="_blank">View Project on GitHub</a></p>
+        <div class="project-box">
+            <h3>Car Price Prediction System</h3>
+            <p>Built a machine learning model to predict car prices based on key features. Improved forecast accuracy by 20% and automated data collection, saving 150+ hours of manual effort. Deployed the solution for real-time price evaluation in the used car market.</p>
+            <a href="https://github.com/SarangPandit/Car-Price-Prediction" target="_blank">Car Price Prediction GitHub</a>
+        </div>
     </div>
 </body>
 </html>
