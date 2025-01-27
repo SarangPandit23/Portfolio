@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sarang Pandit's Portfolio</title>
+    <title>Sarang Pandit's</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body {
@@ -111,7 +111,6 @@
 </head>
 <body>
     <h1>HI! I'M SARANG PANDIT</h1>
-    <div class="line"></div>
     <p>Master's in Information Technology | Data Analyst</p>
     <p>Analyzing and visualizing data to drive smarter, informed business decisions.</p>
 
