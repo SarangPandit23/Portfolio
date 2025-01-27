@@ -10,7 +10,7 @@
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f9fa; /* Off-white background */
+            background-color: #f9f9f9; /* Off-white background */
             color: #333; /* Dark text for readability */
             display: flex;
             flex-direction: column;
@@ -148,13 +148,13 @@
             <div class="project-box">
                 <h3>Instagram Interaction Insights</h3>
                 <p>Analyzed Instagram user interaction data to optimize engagement strategies. Delivered actionable insights on influencer types, posting schedules, and content performance. Improved overall engagement by understanding key audience behavior patterns.</p>
-                <a href="https://github.com/SarangPandit/Instagram-Interaction-Insights" target="_blank">GitHub</a>
+                <a href="https://github.com/SarangPandit23/Instagram-_Interaction_Insights_Analysis" target="_blank">GitHub</a>
             </div>
 
             <div class="project-box">
                 <h3>Car Price Prediction System</h3>
                 <p>Built a machine learning model to predict car prices based on key features. Improved forecast accuracy by 20% and automated data collection, saving 150+ hours of manual effort. Deployed the solution for real-time price evaluation in the used car market.</p>
-                <a href="https://github.com/SarangPandit/Car-Price-Prediction" target="_blank">GitHub</a>
+                <a href="https://www.jetir.org/view?paper=JETIR2204201" target="_blank">Research Paper</a>
             </div>
         </div>
     </div>
