@@ -1,30 +1,121 @@
-## Contact
-spandit1@wpi.edu/ sarangpandit1@wpi.edu | https://www.linkedin.com/in/sarang-pandit |+1 5087138370
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarang Pandit's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .projects, .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            max-width: 300px;
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sarang Pandit</h1>
+        <p>MS in Information Technology | Data Analyst | Machine Learning Enthusiast</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a dedicated Data Analyst with expertise in Python, SQL, Tableau, and AWS. With a strong foundation in engineering and a master's degree in Information Technology from WPI, I am passionate about leveraging data to drive meaningful insights.</p>
+    </section>
 
-## Education
-Worcester Polytechnic Institute	
-- Master of Science, Information Technology | GPA: 4/4 | August 2024 - May 2026
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="card">
+                <h3>Programming</h3>
+                <p>Python (Pandas, NumPy, Matplotlib), SQL, R, Java</p>
+            </div>
+            <div class="card">
+                <h3>Tools</h3>
+                <p>Tableau, Power BI, Databricks, Excel, VBA</p>
+            </div>
+            <div class="card">
+                <h3>Methodologies</h3>
+                <p>SDLC, Agile, Data Visualization, Data Governance</p>
+            </div>
+        </div>
+    </section>
 
-University of Mumbai	
-- Bachelor of Engineering, Electronics and Telecommunication Engineering GPA: 3.4/4	| August 2019 - June 2022
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Goodwill Analytics Dashboard</h3>
+                <p>Designed a real-time analytics dashboard to track donation flow and sustainability metrics, improving strategies by 25%.</p>
+            </div>
+            <div class="card">
+                <h3>Instagram Insights</h3>
+                <p>Analyzed interactions to deliver actionable insights, enhancing engagement with optimized strategies.</p>
+            </div>
+            <div class="card">
+                <h3>Car Price Prediction</h3>
+                <p>Created a machine learning model for car price prediction, improving forecast accuracy by 20%.</p>
+            </div>
+        </div>
+    </section>
 
-## Work Experience
-**Tata Consultancy Services**	                                                                                                                             Mumbai, India
-Data Analyst	                                                                                                                                             July 2022 - June 2024
-•	Developed and optimized a robust ETL pipeline to streamline data ingestion and transformation, efficiently processing over 100,000 records with near-zero errors. Enhanced the reliability and accuracy of analytics, enabling better decision-making for key stakeholders.
-•	Designed and implemented 14+ interactive Tableau and Power BI dashboards to track KPIs across sales and operations, empowering leadership with real-time insights and contributing to measurable revenue growth.
-•	Built and maintained SQL-based reporting systems, reducing query execution time by 40% and improving data consistency and report accuracy by 20%, which supported faster operational decisions.
-•	Automated ad hoc reporting workflows, reducing manual effort by 30% and improving data quality for WBR, MBR, and QBR reporting across cross-functional teams.
-•	Conducted A/B testing and statistical analyses to support data-driven experimentation, leading to improved product performance and enhanced decision-making.
-•	Optimized AWS data pipelines (S3, EC2) to reduce processing times by 30%, enabling faster data accessibility for real-time analytics. Monitored and analyzed key infrastructure metrics to deliver actionable insights that improved operational efficiency
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:spandit1@wpi.edu">spandit1@wpi.edu</a></p>
+        <p>GitHub: <a href="https://github.com/SarangPandit" target="_blank">github.com/SarangPandit</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/sarang-pandit" target="_blank">linkedin.com/in/sarang-pandit</a></p>
+    </section>
 
-
-**CISB Bureaus Facility Services**	                                                                                                                Mumbai, India              
-Data Analyst                                                                                                                                        July 2021 - September 2021
-•	Developed and optimized SQL queries to aggregate and analyze sales data, reducing query execution times by 20% and enabling timely, data-driven decision-making
-•	Performed exploratory data analysis (EDA) on large datasets to identify patterns and anomalies, uncovering insights that contributed to a 12% increase in operational efficiency
-•	Assisted in cleaning and organizing raw datasets, ensuring data accuracy and readiness for analysis. ensuring high data accuracy and optimal readiness for detailed analysis and reporting.
-
-
-
+    <footer>
+        <p>&copy; 2025 Sarang Pandit</p>
+    </footer>
+</body>
+</html>
