@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -34,14 +35,13 @@
         }
         .contact {
             margin-top: 2em;
+            font-size: 1rem;
         }
         .contact a {
             color: #FFD700;
             text-decoration: none;
             font-weight: 600;
-            display: block;
-            margin: 0.5em 0;
-            font-size: 1rem;
+            margin: 0 10px;
         }
         .contact a:hover {
             text-decoration: underline;
@@ -55,7 +55,9 @@
     <p>Analyzing and visualizing data to drive smarter, informed business decisions.</p>
 
     <div class="contact">
-        <a href="mailto:spandit1@wpi.edu">Email: spandit1@wpi.edu</a> <a href="https://github.com/SarangPandit" target="_blank">GitHub: github.com/SarangPandit</a> <a> href="https://linkedin.com/in/sarang-pandit" target="_blank">LinkedIn: linkedin.com/in/sarang-pandit</a>
+        <a href="mailto:spandit1@wpi.edu">Email: spandit1@wpi.edu</a> |
+        <a href="https://github.com/SarangPandit" target="_blank">GitHub: github.com/SarangPandit</a> |
+        <a href="https://linkedin.com/in/sarang-pandit" target="_blank">LinkedIn: linkedin.com/in/sarang-pandit</a>
     </div>
 </body>
 </html>
