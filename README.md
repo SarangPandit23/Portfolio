@@ -1,6 +1,5 @@
 ## Contact
-
-![image](https://github.com/user-attachments/assets/7fad2640-175a-449f-958c-6546ac2a38cd)  https://www.linkedin.com/in/sarang-pandit
+spandit1@wpi.edu/ sarangpandit1@wpi.edu | https://www.linkedin.com/in/sarang-pandit |+1 5087138370
 
 
 ## Education
