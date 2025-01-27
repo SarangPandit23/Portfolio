@@ -96,6 +96,25 @@
         </nav>
     </header>
 
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Goodwill Analytics Dashboard</h3>
+                <p>Created a real-time dashboard integrating multi-state donation data and sustainability metrics, improving donation strategies by 25%.</p>
+                <p><a href="https://github.com/SarangPandit23/Donation-Insights-and-Sustainability-Dashboard-Tactical-Dashboard-" target="_blank">View Project</a></p>
+            </div>
+            <div class="card">
+                <h3>Instagram Insights</h3>
+                <p>Analyzed user interactions and engagement strategies to deliver actionable insights for better social media impact.</p>
+            </div>
+            <div class="card">
+                <h3>Car Price Prediction</h3>
+                <p>Developed a machine learning model for car price prediction, improving forecast accuracy by 20%.</p>
+            </div>
+        </div>
+    </section>
+
     <section id="about">
         <div class="intro">
             <h2>About Me</h2>
@@ -117,24 +136,6 @@
             <div class="card">
                 <h3>Cloud & Databases</h3>
                 <p>AWS, Azure, MySQL, SQLite, Spark SQL</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects">
-            <div class="card">
-                <h3>Goodwill Analytics Dashboard</h3>
-                <p>Created a real-time dashboard integrating multi-state donation data and sustainability metrics, improving donation strategies by 25%.</p>
-            </div>
-            <div class="card">
-                <h3>Instagram Insights</h3>
-                <p>Analyzed user interactions and engagement strategies to deliver actionable insights for better social media impact.</p>
-            </div>
-            <div class="card">
-                <h3>Car Price Prediction</h3>
-                <p>Developed a machine learning model for car price prediction, improving forecast accuracy by 20%.</p>
             </div>
         </div>
     </section>
