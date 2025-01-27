@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -53,6 +52,7 @@
     <div class="line"></div>
     <p>Master's in Information Technology | Data Analyst</p>
     <p>Analyzing and visualizing data to drive smarter, informed business decisions.</p>
+    <p>With over 2 years of experience in developing robust ETL pipelines, creating interactive dashboards, and optimizing SQL-based reporting systems, I bring a proven track record of delivering data-driven insights for business growth and operational efficiency. My expertise includes streamlining workflows, statistical analysis, and cloud infrastructure optimization.</p>
 
     <div class="contact">
         <a href="mailto:spandit1@wpi.edu">Email: spandit1@wpi.edu</a> |
