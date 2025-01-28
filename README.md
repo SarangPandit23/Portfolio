@@ -122,7 +122,7 @@
 
     <div class="contact">
         <a href="mailto:spandit1@wpi.edu">Email: spandit1@wpi.edu</a> |
-        <a href="https://github.com/SarangPandit" target="_blank">GitHub: github.com/SarangPandit</a> |
+        <a href="https://github.com/SarangPandit" target="_blank">GitHub: github.com/SarangPandit23</a> |
         <a href="https://linkedin.com/in/sarang-pandit" target="_blank">LinkedIn: linkedin.com/in/sarang-pandit</a>
     </div>
 
