@@ -151,6 +151,12 @@
             </div>
 
             <div class="project-box">
+                <h3>HR-Analysis</h3>
+                <p>The HR-Analysis dashboard provides insights into employee attrition and job satisfaction, highlighting key factors such as tenure, job role, environment satisfaction, and salary hikes over time. It enables data-driven decision-making by visualizing trends in employee retention and workplace satisfaction metrics.</p>
+                <a href="https://github.com/SarangPandit23/HR-Analysis" target="_blank">GitHub</a>
+            </div>
+
+            <div class="project-box">
                 <h3>Car Price Prediction System</h3>
                 <p>Built a machine learning model to predict car prices based on key features. Improved forecast accuracy by 20% and automated data collection, saving 150+ hours of manual effort. Deployed the solution for real-time price evaluation in the used car market.</p>
                 <a href="https://www.jetir.org/view?paper=JETIR2204201" target="_blank">Research Paper</a>
